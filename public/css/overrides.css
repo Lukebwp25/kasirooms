@@ -1,0 +1,9 @@
+
+/* Sovrascritture mirate per componenti videochat */
+.kn-shell { min-height: 100vh; display: flex; flex-direction: column; }
+.kn-header, .kn-footer { padding: 12px 16px; }
+.kn-main { flex: 1; padding: 16px; }
+.kn-container { max-width: 1100px; margin: 0 auto; }
+.kn-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.kn-card { display: block; border: 1px solid #ddd; border-radius: 8px; padding: 16px; text-decoration: none; }
+.kn-title { font-size: 1.6rem; margin-bottom: 8px; }
