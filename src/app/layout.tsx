@@ -1,4 +1,4 @@
-export const metadata = { title: "Operatore", description: "Seamless kasynoir" };
+export const metadata = { title: "Kasirooms", description: "Seamless kasynoir" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <div className="kn-shell">
           <header className="kn-header">
-            <div className="kn-logo">kasynoir</div>
+            <div className="kn-logo">Kasirooms</div>
             <nav className="kn-nav">
               <a href="/">Home</a>
               <a href="/lobby">Lobby</a>
@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </nav>
           </header>
           <main className="kn-main">{children}</main>
-          <footer className="kn-footer">© {new Date().getFullYear()} Operatore</footer>
+          <footer className="kn-footer">© {new Date().getFullYear()} Kasirooms</footer>
         </div>
       </body>
     </html>
