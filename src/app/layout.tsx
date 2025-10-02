@@ -5,10 +5,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="it">
       <head>
         {/* Importo i CSS originali kasynoir */}
-        <link rel="stylesheet" href="/css/kasynoir/base.css" />
-        <link rel="stylesheet" href="/css/kasynoir/layout.css" />
-        <link rel="stylesheet" href="/css/kasynoir/components.css" />
-        <link rel="stylesheet" href="/css/kasynoir/theme.css" />
+        {/* Note: CSS files base.css, layout.css, components.css, theme.css need to be created */}
+        {/* <link rel="stylesheet" href="/css/kasynoir/base.css" /> */}
+        {/* <link rel="stylesheet" href="/css/kasynoir/layout.css" /> */}
+        {/* <link rel="stylesheet" href="/css/kasynoir/components.css" /> */}
+        {/* <link rel="stylesheet" href="/css/kasynoir/theme.css" /> */}
         <link rel="stylesheet" href="/css/overrides.css" />
       </head>
       <body>
