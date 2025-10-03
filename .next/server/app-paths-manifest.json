@@ -1,4 +1,12 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/lobby/page": "app/lobby/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/wallet/page": "app/wallet/page.js",
+  "/api/healthz/route": "app/api/healthz/route.js",
+  "/api/sso/token/route": "app/api/sso/token/route.js",
+  "/api/db/test/route": "app/api/db/test/route.js",
+  "/api/wallet/balance/route": "app/api/wallet/balance/route.js",
+  "/api/v1/player/info/route": "app/api/v1/player/info/route.js"
 }
